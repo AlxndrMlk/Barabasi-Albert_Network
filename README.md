@@ -1,4 +1,4 @@
-# A Step-by-Step Barabási–Albert Model in Python 3
+# Step-by-Step Barabási–Albert Model in Python 3
 #### by Aleksander Molak (06.2017)
 email: aleksander.molak@gmail.com 
 
@@ -14,15 +14,17 @@ and is a special case of a more general model called Price's model.
 (source: https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model)
 
 ### What is this project about?
-   In this project I built a step-by-step Barabási–Albert Network Model using Python 3 and networkx library.
+   The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
+I used Python 3 and networkx library to meet this objective.
 
-When you run a program you are asked to specify network parameters:
 
-* Initial number of nodes (m_0)
+When you run the script you are asked to specify network parameters:
+
+* Initial number of nodes <a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>
 
 * Final number of nodes
 
-* (m<=m_0): 2
+* **m** parameter (where m<=m_0)
 
 
 Network visualization function in based on animation script by Abdallah Sobehy:
