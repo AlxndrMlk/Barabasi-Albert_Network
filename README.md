@@ -1,4 +1,4 @@
-# Step-by-Step Barabási–Albert Model in Python 3
+# A Step-by-Step Barabási–Albert Model in Python 3
 #### by Aleksander Molak (06.2017)
 email: aleksander.molak@gmail.com 
 
