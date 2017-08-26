@@ -43,6 +43,9 @@ You can also visualize degree distribution, using `k_distr()` function using lin
 
 Degree distribution of **Barabási–Albert** network is <a href="https://www.codecogs.com/eqnedit.php?latex=P(k)&space;$\sim$&space;k^{-3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(k)&space;$\sim$&space;k^{-3}" title="P(k) $\sim$ k^{-3}" /></a> and so it gives a straight line in log-log scale.
 
+#### Examples:
+
+
 * Linear scale example
 
 ```python
