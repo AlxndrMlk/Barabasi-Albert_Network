@@ -16,7 +16,8 @@ and is a special case of a more general model called Price's model.
 ### What is this project about?
    The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
 I used Python 3 and networkx library to meet this objective.
-**Note:** This is implementation hasn't been intentionally optimized for speed and memory usage.
+
+**Note:** This is implementation hasn't been optimized for computational speed or memory usage.
 
 ### How does it work?
    When you run the script you are asked to specify network parameters:
