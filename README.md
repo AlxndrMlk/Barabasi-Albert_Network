@@ -24,7 +24,7 @@ When you run the script you are asked to specify network parameters:
 
 * Final number of nodes
 
-* **m** parameter (where m<=m_0)
+* **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
 
 
 Network visualization function in based on animation script by Abdallah Sobehy:
