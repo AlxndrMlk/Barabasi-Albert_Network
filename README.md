@@ -18,7 +18,7 @@ and is a special case of a more general model called Price's model.
 I used Python 3 and networkx library to meet this objective.
 
 **Note:** This implementation:
-* was designed to work in Jupyter Notebook environment; I recommend you to put every code section in a separate notebook cell;
+* was designed to work in Jupyter Notebook environment; I recommend you to put every code section in a separate notebook cell; all code sections are marked in the comments;
 * hasn't been optimized for computational speed or memory usage; feel free to reuse and improve this code.
 
 ### How does it work?
