@@ -68,3 +68,11 @@ Network visualization function `k_distr()` in based on the animation script by A
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
 
 
+To see some visualizations made with this Python script check the pdf:
+![Visualizations](./BA_model.py)
+
+In case of any questions or if you simply wanna say hello, feel free to contact me 
+<aleksander.molak@gmail.com>
+
+
+And have fun! :)
