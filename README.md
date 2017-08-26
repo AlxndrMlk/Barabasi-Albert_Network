@@ -26,11 +26,15 @@ I used Python 3 and networkx library to meet this objective.
 
 * Initial number of edges: **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
 
-   When the script reaches final number of nodes you can visualize your network. For example:
+   When the script reaches final number of nodes you can visualize your network. For example you can use:
    
 ```python
 nx.draw(G, node_size=50, with_labels=0, alpha=0.6, node_color="#40a6d1", edge_color="#52bced")
 ```
+
+and you should get a visualization similar to this:
+
+
 
 Network visualization function in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
