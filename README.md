@@ -17,15 +17,20 @@ and is a special case of a more general model called Price's model.
    The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
 I used Python 3 and networkx library to meet this objective.
 
-
-When you run the script you are asked to specify network parameters:
+### How does it work?
+   When you run the script you are asked to specify network parameters:
 
 * Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>)
 
 * Final number of nodes
 
-* **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
+* Initial number of edges: **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
 
+   When the script reaches final number of nodes you can visualize your network. For example:
+   
+```python
+nx.draw(G, node_size=50, with_labels=0, alpha=0.6, node_color="#40a6d1", edge_color="#52bced")
+```
 
 Network visualization function in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
