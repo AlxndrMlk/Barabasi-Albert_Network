@@ -54,7 +54,7 @@ k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=1
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
 
-Network visualization function `k_distr()` in based on animation script by Abdallah Sobehy:
+Network visualization function `k_distr()` in based on the animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
 
 
