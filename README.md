@@ -17,7 +17,9 @@ and is a special case of a more general model called Price's model.
    The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
 I used Python 3 and networkx library to meet this objective.
 
-**Note:** This quick implementation hasn't been optimized for computational speed or memory usage. Feel free to reuse and improve this code.
+**Note:** This implementation:
+* was designed to work in Jupyter Notebook environment; I recommend you to put every code section in a separate notebook cell;
+* hasn't been optimized for computational speed or memory usage; feel free to reuse and improve this code.
 
 ### How does it work?
    When you run the script you are asked to specify network parameters:
@@ -62,7 +64,7 @@ k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=1
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
 
-***Note:** `expct_lo`, `expct_hi` and `expct_const` parameters are used to manually adjust theoretical distribution line on the plot*
+***Note:** `expct_lo`, `expct_hi` and `expct_const` parameters are used to manually adjust theoretical distribution line in the plot*
 
 Network visualization function `k_distr()` in based on the animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
