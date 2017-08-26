@@ -24,7 +24,7 @@ I used Python 3 and networkx library to meet this objective.
 
 * Final number of nodes
 
-* Initial number of edges: **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
+* **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>); This parameter controls how many new edges will every new node create
 
    When the script reaches final number of nodes you can visualize your network. For example you can use:
    
