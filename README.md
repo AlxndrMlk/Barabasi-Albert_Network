@@ -20,7 +20,7 @@ I used Python 3 and networkx library to meet this objective.
 
 When you run the script you are asked to specify network parameters:
 
-* Initial number of nodes <a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>
+* Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>)
 
 * Final number of nodes
 
