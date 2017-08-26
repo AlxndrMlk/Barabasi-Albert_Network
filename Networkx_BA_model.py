@@ -1,18 +1,18 @@
 # coding: utf-8
-
-# In[1]:
+# ____________________________________________________________________
+# SECTION 1 - IMPORTS
 
 import networkx as nx
 import numpy as np
 import random as rd
 import matplotlib.pyplot as plt
 import warnings
-warnings.filterwarnings('ignore')
+# If you are using Jupyter Notebook you may find following two lines useful:
+# warnings.filterwarnings('ignore')
+# get_ipython().magic('matplotlib inline')
 
-get_ipython().magic('matplotlib inline')
-
-
-# In[2]:
+# ____________________________________________________________________
+# SECTION 2 - VISUALISATION FUNCTION
 
 def k_distrib(graph=G, scale='lin', colour='#40a6d1', alpha=.8, expct_lo=1, expct_hi=10, expct_const=1):
     plt.close()
@@ -56,8 +56,8 @@ def k_distrib(graph=G, scale='lin', colour='#40a6d1', alpha=.8, expct_lo=1, expc
     plt.xlabel('k')
     plt.show()
 
-
-# In[3]:
+# ____________________________________________________________________
+# SECTION 3 - BA ALGORITHM
 
 print("***\nWelcome to Barabási–Albert (BA) model simulation\nAuthor: Aleksander Molak (2017)\n!איזה כיף\n\n")
 
