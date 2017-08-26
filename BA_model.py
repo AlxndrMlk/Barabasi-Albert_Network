@@ -1,4 +1,9 @@
 # coding: utf-8
+#
+# Barabási–Albert Network Model
+# by Aleksander Molak (2017)
+# aleksander.molak@gmail.com
+#
 # ____________________________________________________________________
 # SECTION 1 - IMPORTS
 
