@@ -1,4 +1,4 @@
-# Step-by-Step Barabási–Albert Model in Python 3
+# A Step-by-Step Barabási–Albert Model in Python 3
 #### by Aleksander Molak (06.2017)
 email: aleksander.molak@gmail.com 
 
@@ -17,16 +17,19 @@ and is a special case of a more general model called Price's model.
    The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
 I used Python 3 and networkx library to meet this objective.
 
+**Note:** This quick implementation hasn't been optimized for computational speed or memory usage. Feel free to reuse and improve this code.
+
 ### How does it work?
    When you run the script you are asked to specify network parameters:
 
-* Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>), where <a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a> has to be <a href="https://www.codecogs.com/eqnedit.php?latex=>1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?>1" title=">1" /></a>
+* Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>), where <a href="https://www.codecogs.com/eqnedit.php?latex=m>1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m>1" title="m>1" /></a>
 
 * Final number of nodes
 
-* Initial number of edges: **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>)
+* **m** parameter (where <a href="https://www.codecogs.com/eqnedit.php?latex=m\leq&space;m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\leq&space;m_0" title="m\leq m_0" /></a>); This parameter controls how many new edges will every new node create
 
-   When the script reaches final number of nodes you can visualize your network. For example you can use:
+
+When the script reaches final number of nodes you can visualize your network. For example you can use:
    
 ```python
 nx.draw(G, node_size=50, with_labels=0, alpha=0.6, node_color="#40a6d1", edge_color="#52bced")
@@ -36,7 +39,12 @@ and you should get a visualization similar to this:
 
 ![net_4_500_2](https://user-images.githubusercontent.com/28199898/29740901-0c37361a-8a62-11e7-8dc0-5c7abe6f2423.png)
 
-You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale.
+You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale. 
+
+Degree distribution of **Barabási–Albert** network is <a href="https://www.codecogs.com/eqnedit.php?latex=P(k)&space;$\sim$&space;k^{-3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(k)&space;$\sim$&space;k^{-3}" title="P(k) $\sim$ k^{-3}" /></a> and so it gives a straight line in log-log scale.
+
+#### Examples:
+
 
 * Linear scale example
 
@@ -54,7 +62,9 @@ k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=1
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
 
-Network visualization function `k_distr()` in based on animation script by Abdallah Sobehy:
+***Note:** `expct_lo`, `expct_hi` and `expct_const` parameters are used to manually adjust theoretical distribution line on the plot*
+
+Network visualization function `k_distr()` in based on the animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
 
 
