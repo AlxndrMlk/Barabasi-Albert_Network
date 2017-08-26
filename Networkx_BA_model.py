@@ -7,6 +7,7 @@ import numpy as np
 import random as rd
 import matplotlib.pyplot as plt
 import warnings
+
 # If you are using Jupyter Notebook you may find following two lines useful:
 # warnings.filterwarnings('ignore')
 # get_ipython().magic('matplotlib inline')
@@ -35,7 +36,7 @@ def k_distrib(graph=G, scale='lin', colour='#40a6d1', alpha=.8, expct_lo=1, expc
         y = [i/num_nodes for i in y_tmp]
     # Plot the graph
     deg, = plt.plot(x, y,label='Degree distribution',linewidth=0, marker='o',markersize=8, color=colour, alpha=alpha)
-    # Check the lin / log parameter and set axes scale
+    # Check for the lin / log parameter and set axes scale
     if scale == 'log':
         plt.xscale('log')
         plt.yscale('log')
@@ -44,7 +45,7 @@ def k_distrib(graph=G, scale='lin', colour='#40a6d1', alpha=.8, expct_lo=1, expc
         w = [a for a in range(expct_lo,expct_hi)]
         z = []
         for i in w:
-            x = (i**-3) * expct_const
+            x = (i**-3) * expct_const # set line's length and fit intercept
             z.append(x)
 
         plt.plot(w,z, 'k-', color='#7f7f7f')
