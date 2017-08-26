@@ -44,13 +44,15 @@ You can also visualize degree distribution, using *k_distr* function using linea
 k_distrib(graph=G,colour='#40a6d1',alpha=.8)
 ```
 
-
+![net_4_500_2_distr_lin](https://user-images.githubusercontent.com/28199898/29740902-0c398046-8a62-11e7-9a30-2d0a00751f22.png)
 
 * Log-log scale example
 
 ```python
 k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=14, expct_const=8)
 ```
+
+![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
 
 Network visualization function in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
