@@ -39,7 +39,9 @@ and you should get a visualization similar to this:
 
 ![net_4_500_2](https://user-images.githubusercontent.com/28199898/29740901-0c37361a-8a62-11e7-8dc0-5c7abe6f2423.png)
 
-You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale.
+You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale. 
+
+Degree distribution of **Barabási–Albert** network is <a href="https://www.codecogs.com/eqnedit.php?latex=P(k)&space;$\sim$&space;k^{-3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(k)&space;$\sim$&space;k^{-3}" title="P(k) $\sim$ k^{-3}" /></a> and so it gives a straight line in log-log scale.
 
 * Linear scale example
 
