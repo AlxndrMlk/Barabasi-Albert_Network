@@ -20,7 +20,7 @@ I used Python 3 and networkx library to meet this objective.
 ### How does it work?
    When you run the script you are asked to specify network parameters:
 
-* Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>), where (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>) has to be (<a href="https://www.codecogs.com/eqnedit.php?latex=>1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>)
+* Initial number of nodes (<a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a>), where <a href="https://www.codecogs.com/eqnedit.php?latex=m_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m_0" title="m_0" /></a> has to be <a href="https://www.codecogs.com/eqnedit.php?latex=>1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?>1" title=">1" /></a>
 
 * Final number of nodes
 
@@ -36,7 +36,7 @@ and you should get a visualization similar to this:
 
 ![net_4_500_2](https://user-images.githubusercontent.com/28199898/29740901-0c37361a-8a62-11e7-8dc0-5c7abe6f2423.png)
 
-You can also visualize degree distribution, using *k_distr* function using linear or log-log scale.
+You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale.
 
 * Linear scale example
 
@@ -54,7 +54,7 @@ k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=1
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
 
-Network visualization function in based on animation script by Abdallah Sobehy:
+Network visualization function `k_distr()` in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
 
 
