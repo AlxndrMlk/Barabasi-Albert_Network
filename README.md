@@ -34,9 +34,23 @@ nx.draw(G, node_size=50, with_labels=0, alpha=0.6, node_color="#40a6d1", edge_co
 
 and you should get a visualization similar to this:
 
-![Network Visualization](./pics/net_4_500_2.png)
-
 ![net_4_500_2](https://user-images.githubusercontent.com/28199898/29740901-0c37361a-8a62-11e7-8dc0-5c7abe6f2423.png)
+
+You can also visualize degree distribution, using *k_distr* function using linear or log-log scale.
+
+* Linear scale example
+
+```python
+k_distrib(graph=G,colour='#40a6d1',alpha=.8)
+```
+
+
+
+* Log-log scale example
+
+```python
+k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=14, expct_const=8)
+```
 
 Network visualization function in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
