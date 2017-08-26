@@ -34,7 +34,7 @@ nx.draw(G, node_size=50, with_labels=0, alpha=0.6, node_color="#40a6d1", edge_co
 
 and you should get a visualization similar to this:
 
-(/pics/net_4_500_2.png)
+(./pics/net_4_500_2.png)
 
 Network visualization function in based on animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
