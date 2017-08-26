@@ -53,9 +53,10 @@ k_distrib(graph=G,colour='#40a6d1',alpha=.8)
 ```python
 k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=14, expct_const=8)
 ```
-***Note:** `expct_lo`, `expct_hi` and `expct_const` parameters are used to manually adjust theoretical distribution line on the plot*
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
+
+***Note:** `expct_lo`, `expct_hi` and `expct_const` parameters are used to manually adjust theoretical distribution line on the plot*
 
 Network visualization function `k_distr()` in based on the animation script by Abdallah Sobehy:
 https://github.com/Abdallah-Sobehy/barabasi_albert/blob/master/BA.py
