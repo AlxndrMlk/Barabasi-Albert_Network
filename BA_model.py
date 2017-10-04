@@ -15,7 +15,7 @@ import warnings
 
 # If you are using Jupyter Notebook you may find following two lines useful:
 # warnings.filterwarnings('ignore')
-# get_ipython().magic('matplotlib inline')
+# % matplotlib inline
 
 # ____________________________________________________________________
 # SECTION 2 - VISUALISATION FUNCTION
