@@ -2,6 +2,8 @@
 #### by Aleksander Molak (06.2017)
 email: aleksander.molak@gmail.com 
 
+***NOTE**: before running this code please make sure you updated your libraries (e.g. Numpy) - this is the most common cause of errors reported by people using it. Thank you and have fun!* 😊
+
 ### What is Barabási–Albert Network?
    The **Barabási–Albert (BA)** model is an algorithm for generating random scale-free networks 
 using a preferential attachment mechanism.
