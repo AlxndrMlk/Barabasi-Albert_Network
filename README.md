@@ -44,7 +44,7 @@ and you should get a visualization similar to this:
 
 You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale. 
 
-Degree distribution of **Barabási–Albert** network is $k**{-3}$ and so it gives a straight line in log-log scale.
+Degree distribution of **Barabási–Albert** network is $`k**{-3}`$ and so it gives a straight line in log-log scale.
 
 #### Examples:
 
