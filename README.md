@@ -20,7 +20,6 @@ and is a special case of a more general model called Price's model.
 I used Python 3 and networkx library to meet this objective.
 
 **Note:** This implementation:
-* was designed to work in Jupyter Notebook environment; I recommend you to put every code section in a separate notebook cell; all code sections are marked in the comments;
 * hasn't been optimized for computational speed or memory usage; feel free to reuse and improve this code.
 
 ### How does it work?
@@ -45,7 +44,7 @@ and you should get a visualization similar to this:
 
 You can also visualize degree distribution, using `k_distr()` function using linear or log-log scale. 
 
-Degree distribution of **Barabási–Albert** network is <a href="https://www.codecogs.com/eqnedit.php?latex=P(k)&space;$\sim$&space;k^{-3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(k)&space;$\sim$&space;k^{-3}" title="P(k) $\sim$ k^{-3}" /></a> and so it gives a straight line in log-log scale.
+Degree distribution of **Barabási–Albert** network is `k**(-3)` and so it gives a straight line in log-log scale.
 
 #### Examples:
 
@@ -53,7 +52,7 @@ Degree distribution of **Barabási–Albert** network is <a href="https://www.co
 * Linear scale example
 
 ```python
-k_distrib(graph=G,colour='#40a6d1',alpha=.8)
+k_distrib(graph=G, colour='#40a6d1', alpha=.8)
 ```
 
 ![net_4_500_2_distr_lin](https://user-images.githubusercontent.com/28199898/29740902-0c398046-8a62-11e7-9a30-2d0a00751f22.png)
@@ -61,7 +60,7 @@ k_distrib(graph=G,colour='#40a6d1',alpha=.8)
 * Log-log scale example
 
 ```python
-k_distrib(graph=G,colour='#40a6d1', scale='log',alpha=.8, expct_lo=3, expct_hi=14, expct_const=8)
+k_distrib(graph=G, colour='#40a6d1', scale='log', alpha=.8, fit_line=True, expct_lo=3, expct_hi=14, expct_const=8)
 ```
 
 ![net_4_500_2_distr_log](https://user-images.githubusercontent.com/28199898/29740900-0c371298-8a62-11e7-887a-8241533fd6c4.png)
