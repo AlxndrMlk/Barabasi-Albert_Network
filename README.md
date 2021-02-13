@@ -2,7 +2,7 @@
 #### by Aleksander Molak (06.2017)
 email: aleksander.molak@gmail.com 
 
-***NOTE**: before running this code please make sure you updated your libraries (e.g. Numpy) - this is the most common cause of errors reported by people using it. Thank you and have fun!* 😊
+***NOTE**: to make sure the code from this repo works, please check your libraries versions with `requirements.txt`. Good luck and have fun!* 😊
 
 ### What is Barabási–Albert Network?
    The **Barabási–Albert (BA)** model is an algorithm for generating random scale-free networks 
@@ -19,8 +19,7 @@ and is a special case of a more general model called Price's model.
    The goal of this project was to built a step-by-step Barabási–Albert Network Model. 
 I used Python 3 and networkx library to meet this objective.
 
-**Note:** This implementation:
-* hasn't been optimized for computational speed or memory usage; feel free to reuse and improve this code.
+**Note:** This implementation hasn't been optimized for computational speed or memory usage; feel free to reuse and improve this code.
 
 ### How does it work?
    When you run the script you are asked to specify network parameters:
