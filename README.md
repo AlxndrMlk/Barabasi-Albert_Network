@@ -1,5 +1,5 @@
 # A Step-by-Step Barabási–Albert Model in Python 3
-#### by Aleksander Molak (06.2017)
+#### by Aleksander Molak (06.2017; last update: 03.2021)
 email: aleksander.molak@gmail.com 
 
 ***NOTE**: to make sure the code from this repo works, please check your libraries versions with `requirements.txt`. Good luck and have fun!* 😊
