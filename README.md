@@ -2,7 +2,7 @@
 #### by Aleksander Molak (06.2017; last update: 03.2021)
 email: aleksander.molak@gmail.com 
 
-***NOTE**: to make sure the code from this repo works, please check your libraries versions with `requirements.txt`. Good luck and have fun!* 😊
+***NOTE**: to make sure the code from this repo works, please check your libraries versions against `requirements.txt`. Good luck and have fun!*
 
 ### What is Barabási–Albert Network?
    The **Barabási–Albert (BA)** model is an algorithm for generating random scale-free networks 
